@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="in"
+                 name="Software Training Guide"
+                 start-page="starter.md">
+
+    <toc-element topic="starter.md"/>
+    <toc-element topic="Swerve.topic">
+        <toc-element topic="Intro-To-Swerve.md"/>
+        <toc-element topic="Programming-a-Swerve-Part-1.md"/>
+    </toc-element>
+</instance-profile>
