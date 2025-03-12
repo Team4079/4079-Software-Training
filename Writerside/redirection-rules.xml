@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rules SYSTEM "https://resources.jetbrains.com/writerside/1.0/redirection-rules.dtd">
+<rules>
+    <!-- format is as follows
+    <rule id="<unique id>">
+        <accepts>page.html</accepts>
+    </rule>
+    -->
+    <rule id="5032261b">
+        <description>Created after removal of "PID" from Software Training Guide</description>
+        <accepts>PID.html</accepts>
+    </rule>
+    <rule id="7a651e63">
+        <description>Created after removal of "Limelight" from Software Training Guide</description>
+        <accepts>Limelight.html</accepts>
+    </rule>
+</rules>

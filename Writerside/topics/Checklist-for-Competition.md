@@ -1,0 +1,3 @@
+# Checklist for Competition
+
+Start typing here...

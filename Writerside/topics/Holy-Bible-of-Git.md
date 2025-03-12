@@ -1,0 +1,3 @@
+# Holy Bible of Git
+
+Start typing here...

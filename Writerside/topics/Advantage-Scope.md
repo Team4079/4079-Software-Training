@@ -1,0 +1,3 @@
+# Advantage Scope
+
+Start typing here...
