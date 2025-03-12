@@ -6,7 +6,10 @@
                  name="Software Training Guide"
                  start-page="starter.md">
 
-    <toc-element topic="starter.md"/>
+    <toc-element topic="starter.md">
+        <toc-element topic="What-We-Do.md"/>
+        <toc-element topic="FRC-Software-Jargon.md"/>
+    </toc-element>
     <toc-element topic="Intro-to-Java-Kotlin.topic">
         <toc-element topic="Om-Please-Glaze-Kt-here.md"/>
     </toc-element>
@@ -17,6 +20,7 @@
         <toc-element topic="Git-Client.md"/>
     </toc-element>
     <toc-element topic="FRC-Specific-Apps.topic">
+        <toc-element topic="NI.md"/>
         <toc-element topic="Driverstation.md"/>
         <toc-element topic="BalenaEtcher.md"/>
         <toc-element topic="Rev-Hardware-Client.md"/>

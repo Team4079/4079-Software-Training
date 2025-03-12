@@ -19,7 +19,7 @@ teach you everything you need to know in java. There are plenty of guides for th
 We are also more than happy to explain anything that 
 you may not understand. Ask any of the current software members and we will make sure you understand the material. 
 
-![Create new topic options](absolutecinema.png){ width=290 }{border-effect=line}
+![Absolute Cinema](absolutecinema.png){ width=290 }{border-effect=line}
 
 ## Quick start guide
 The guide is divided into important aspects of FRC Software. Each of these will have subguides explaining specific aspects of the certain concept. 

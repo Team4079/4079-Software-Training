@@ -1,0 +1,3 @@
+# FRC Software Jargon
+
+Start typing here...
