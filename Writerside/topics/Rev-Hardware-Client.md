@@ -1,3 +1,3 @@
-# Rev Hardware Client
+# REV Hardware Client
 
 Start typing here...
