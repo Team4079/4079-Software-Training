@@ -5,5 +5,13 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="Intro to Java/Kotlin" id="Intro-to-Java-Kotlin">
 
-    <p>Start typing here... Useful Resources: </p>
+    <p> Java and Kotlin are the two main language 4079 uses.
+        The main languages of FRC teams are typically C++, Java, and Python,
+        however is not only limited to these three, which we'll discuss later
+        on. The reasons why we don't use C++ is because it does not give us
+        the benefit that we want for such a low-level language, and for Python
+        the language is simply too inefficient for our robot code, making Java
+        the best and most sufficient middle language for us. </p>
+
+    <p> Why Java AND Kotlin: </p>
 </topic>
