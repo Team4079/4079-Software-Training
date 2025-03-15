@@ -1,3 +1,0 @@
-# Why Java for FRC
-
-Start typing here...
