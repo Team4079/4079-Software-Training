@@ -18,4 +18,12 @@
         <description>Created after removal of "Java/Kotlin" from Software Training Guide</description>
         <accepts>Java-Kotlin.html</accepts>
     </rule>
+    <rule id="10deb661">
+        <description>Created after removal of "Using Java for FRC" from Software Training Guide</description>
+        <accepts>Using-Java-for-FRC.html</accepts>
+    </rule>
+    <rule id="6f2122ea">
+        <description>Created after removal of "Why Kotlin for FRC" from Software Training Guide</description>
+        <accepts>Why-Kotlin-for-FRC.html</accepts>
+    </rule>
 </rules>
