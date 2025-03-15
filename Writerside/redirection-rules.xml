@@ -14,4 +14,8 @@
         <description>Created after removal of "Limelight" from Software Training Guide</description>
         <accepts>Limelight.html</accepts>
     </rule>
+    <rule id="7b1eaa74">
+        <description>Created after removal of "Java/Kotlin" from Software Training Guide</description>
+        <accepts>Java-Kotlin.html</accepts>
+    </rule>
 </rules>
