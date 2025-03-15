@@ -1,5 +1,8 @@
 # FRC 4079 Software Training Guide
 
+**Author:** Shawn Gazin  
+**Class:** 2025 Software Lead
+
 ## Our Mission
 We created this software training guide in order to have all the information we find valuable for all our software members to know for FRC 4079. Even though this guide tries to teach many skills, this should not replace actual experience. Rather, this guide should make all the intimidating software understandable after looking through the guide.
 

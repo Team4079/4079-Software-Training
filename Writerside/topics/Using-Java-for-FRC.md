@@ -1,7 +1,7 @@
 # Using Java for FRC
 
 **Author:** Brandon Jun  
-**Class:** Absolute Monkey
+**Class:** 2025 Software Member
 
 ## Introduction
 
@@ -37,12 +37,14 @@ more detailed however limited guide for beginners. This course is also more
 narrowed down on the order of how you learn Java, and is not the highest
 recommended resource from 4079, but is available for those who want to try it.
 
-### 3. APCSA (AP Computer Science A, 10th Grade)
+## Beyond the "Norms"
 
-Most if not all 4079 Software members have taken or are taking APCSA, however
-is NOT a requirement to join the team. APCSA is NOT the best, however is an ok
-foundation for learning the syntax and basic fundamentals of Java.
+Touching back on the typical languages of FRC teams, C++, Java, and Python, 
+again, are not the limits of FRC Software. 4079 has seen the likes of C#, Rust,
+and [add more] from other team. During the 2024 off-season, Kotlin, a JetBrains 
+development of Java, was introduced to the team. The specific key advantage of 
+Kotlin will be elaborated in the next page, but we'll explain the functionality 
+of Kotlin here. Since major FRC libraries like WPILIB and [add more] really only 
+recognize C++, Java, and Python, languages like Rust would be really hard to 
+integrate into our robot code. However, since Kotlin 
 
-## Project Pitches
-
-### 1. 
