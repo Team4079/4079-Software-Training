@@ -11,7 +11,9 @@ Kotlin offers several advantages over Java for FRC robotics programming. Here's 
 
 ### 1. Conciseness and Readability
 
-Kotlin's syntax is more concise than Java, which leads to fewer lines of code and improved readability. This can be very helpful in an FRC environment where you want to minimize the risk of errors and write cleaner, easier-to-maintain code. For example, Kotlin eliminates boilerplate code like getters, setters, and null checks, which can make it easier to focus on the logic of your robot.
+While shorter code isn't inherently more readable, Kotlin reduces boilerplate without sacrificing clarity. In FRC code, this means less cognitive overhead when reading and maintaining complex robot systems.
+
+Yes, Java libraries like Lombok can mitigate some verbosity issues, but they're bolt-on solutions that require annotations and workarounds. Kotlin has these features built into its foundation, resulting in more elegant, integrated code.
 
 **Kotlin example (concise):**
 ```kotlin
@@ -64,7 +66,9 @@ Kotlin can call Java libraries or vice versa without much friction.
 
 ### 6. Type Inference
 
-Kotlin has a powerful type inference system that reduces verbosity, allowing you to omit explicit type declarations when they can be inferred. This results in cleaner, more readable code.
+While Java has had type inference with `var` since Java 10, Kotlin's implementation is more comprehensive and mature. Java's type inference is limited to local variables, whereas Kotlin supports it for variables, properties, and function return types.
+
+Kotlin's compiler was built from the ground up with type inference in mind, making it more robust. And if you prefer explicit typing, you always have that option too.
 
 **Kotlin example:**
 ```kotlin
@@ -74,11 +78,13 @@ val motor = Motor(1)  // Type inferred as Motor
 **Java equivalent:**
 ```java
 Motor motor = new Motor(1);
+// or with var (Java 10+)
+var motor = new Motor(1);  // Limited to local variables only
 ```
 
 ### 7. Smart Casts
 
-Kotlin's smart casting mechanism allows for fewer explicit type checks and casts, which can simplify the control logic in FRC. If the compiler can guarantee that a variable is of a certain type, it automatically casts it, removing the need for manual casting.
+Kotlin's smart casting is particularly valuable when working with generic types and extension functions. It eliminates unsafe explicit casts that can lead to runtime errors.
 
 **Example:**
 ```kotlin
@@ -97,7 +103,7 @@ This can help create more human-readable and organized code for robot actions, t
 
 I've already translated SwerveBase into Kotlin, and it's a lot more readable. Here are some differences:
 
-### Kotlin [SwerveModule constructor]: Repeat-proof code
+### Kotlin [SwerveModule constructor]: Structured, nested configuration
 
 ```kotlin
 /** Configuration for the drive motor */
@@ -111,6 +117,12 @@ val driveConfigs =
     MotorOutput.apply {
       NeutralMode = NeutralModeValue.Brake
       Inverted = SwerveGlobalValues.DRIVE_MOTOR_INVERETED
+    }
+    CurrentLimits.apply {
+      SupplyCurrentLimit = MotorGlobalValues.DRIVE_SUPPLY_LIMIT
+      SupplyCurrentThreshold = MotorGlobalValues.DRIVE_SUPPLY_THRESHOLD
+      SupplyTimeThreshold = MotorGlobalValues.DRIVE_TIME_THRESHOLD
+      SupplyCurrentLimitEnable = true
     }
   }
 
@@ -131,11 +143,17 @@ val steerConfigs =
       FeedbackSensorSource = FeedbackSensorSourceValue.FusedCANcoder
       RotorToSensorRatio = MotorGlobalValues.STEER_MOTOR_GEAR_RATIO
     }
+    CurrentLimits.apply {
+      SupplyCurrentLimit = MotorGlobalValues.STEER_SUPPLY_LIMIT
+      SupplyCurrentThreshold = MotorGlobalValues.STEER_SUPPLY_THRESHOLD
+      SupplyTimeThreshold = MotorGlobalValues.STEER_TIME_THRESHOLD
+      SupplyCurrentLimitEnable = true
+    }
     ClosedLoopGeneral.ContinuousWrap = true
   }
 ```
 
-### Java [SwerveModule constructor]
+### Java [SwerveModule constructor]: Flat, sequential configuration
 
 ```java
 driveConfigs.Slot0.kP = BasePIDGlobal.DRIVE_PID.p;
@@ -168,12 +186,13 @@ steerConfigs.CurrentLimits.SupplyTimeThreshold = MotorGlobalValues.STEER_TIME_TH
 steerConfigs.CurrentLimits.SupplyCurrentLimitEnable = true;
 ```
 
-### Kotlin [SwerveModule.getState & setState]: Getters and setters inside vars
+### Kotlin [SwerveModule.getState & setState]: Integrated property accessors
 
 ```kotlin
 /** State of the swerve module */
 var state = SwerveModuleState(0.0, Rotation2d.fromDegrees(0.0))
   get() {
+    // 'field' is a built-in reference to the backing property
     field.angle = Rotation2d.fromRotations(steerMotor.position.valueAsDouble)
     field.speedMetersPerSecond =
       (driveMotor.velocity.valueAsDouble *
@@ -201,7 +220,7 @@ var state = SwerveModuleState(0.0, Rotation2d.fromDegrees(0.0))
   }
 ```
 
-### Java [SwerveModule.getState & setState]
+### Java [SwerveModule.getState & setState]: Separate methods
 
 ```java
 private SwerveModuleState state = new SwerveModuleState(0.0, Rotation2d.fromDegrees(0.0));
@@ -233,6 +252,10 @@ public void setState(SwerveModuleState state) {
 }
 ```
 
+The Kotlin version groups related properties together using nested blocks, making it easier to see which settings belong to which component. The `apply` function creates a more visually organized structure compared to Java's flat sequential assignments. In the property accessor example, Kotlin's built-in `field` reference simplifies custom getter and setter implementation.
+
 ## Conclusion
 
 Kotlin provides numerous advantages for FRC programming, including more concise syntax, better safety features, and powerful language constructs. The real-world examples above demonstrate how Kotlin can make your robot code more readable and maintainable while reducing the potential for errors.
+
+While Java has added some similar features over time (like limited type inference with `var`), Kotlin was designed with these modern programming concepts from the ground up, resulting in a more cohesive and integrated experience.
