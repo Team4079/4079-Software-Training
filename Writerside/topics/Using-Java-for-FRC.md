@@ -5,7 +5,7 @@
 
 ## Introduction
 
-As of 2025, Java and Kotlin are the two main language 4079 uses.
+As of 2025, Java and Kotlin are the two main languages 4079 uses.
 The main languages of FRC teams are typically C++, Java, and Python,
 however is not only limited to these three, which we'll discuss later
 on. The reasons why we don't use C++ is because it does not give us
@@ -41,10 +41,10 @@ recommended resource from 4079, but is available for those who want to try it.
 
 Touching back on the typical languages of FRC teams, C++, Java, and Python, 
 again, are not the limits of FRC Software. 4079 has seen the likes of C#, Rust,
-and [add more] from other team. During the 2024 off-season, Kotlin, a JetBrains 
+and Go from other teams. During the 2024 off-season, Kotlin, a JetBrains 
 development of Java, was introduced to the team. The specific key advantage of 
-Kotlin will be elaborated in the next page, but we'll explain the functionality 
+Kotlin will be elaborated in the [next page](Why-Kotlin-for-FRC.md), but we'll explain the functionality 
 of Kotlin here. Since major FRC libraries like WPILIB and [add more] really only 
 recognize C++, Java, and Python, languages like Rust would be really hard to 
-integrate into our robot code. However, since Kotlin 
-
+integrate into our robot code. However, since Kotlin has direct support for Java, it
+can use anything Java can but with all the benefits of Kotlin and its own compiler.
