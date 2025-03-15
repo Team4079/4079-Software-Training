@@ -4,9 +4,9 @@
 
 <instance-profile id="in"
                  name="Software Training Guide"
-                 start-page="index.md">
+                 start-page="FRC-4079-Software-Training-Guide.md">
 
-    <toc-element topic="index.md">
+    <toc-element topic="FRC-4079-Software-Training-Guide.md">
         <toc-element topic="What-We-Do.md"/>
         <toc-element topic="FRC-Software-Jargon.md"/>
     </toc-element>
