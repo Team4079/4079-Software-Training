@@ -1,10 +1,12 @@
 # Why Kotlin for FRC
 
-**Author:** Om Gupta, D1 Kotlin Glazer
+**Author:** Om Gupta, D1 Kotlin Glazer  
+**Class:** 2025 Software Member
 
 ## Introduction
 
-Kotlin offers several advantages over Java for FRC robotics programming. Here's why it might be a better choice for your team's codebase.
+Kotlin offers several advantages over Java for FRC robotics programming. 
+This page will outline more on why it's a better choice for 4079's Software.
 
 ## Key Advantages
 
