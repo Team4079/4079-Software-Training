@@ -1,4 +1,4 @@
-# Open Loop Control (In Progress)
+# Open Loop Control
 
 Open loop control is when you command a motor to go to a certain output without ever receiving feedback on whether it is actually there.
 A real life example of this could be your oven: you tell it to go to 350 degrees, and it may or may not actually be that.  

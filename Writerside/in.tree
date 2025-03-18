@@ -53,6 +53,7 @@
         <toc-element topic="Closed-Loop-Control.md"/>
         <toc-element topic="PID.md"/>
         <toc-element topic="Motion-Magic.md"/>
+        <toc-element topic="Profiled-PID.md"/>
     </toc-element>
     <toc-element topic="Swerve.topic">
         <toc-element topic="Intro-To-Swerve.md"/>
