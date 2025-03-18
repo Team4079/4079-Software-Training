@@ -24,9 +24,18 @@
         <toc-element topic="Rio-Imaging-Tool.md"/>
     </toc-element>
     <toc-element topic="Common-Hardware.topic">
-        <toc-element topic="Motors.topic"/>
-        <toc-element topic="Motor-Controllers.topic"/>
-        <toc-element topic="Encoders.topic"/>
+        <toc-element topic="Motors.topic">
+            <toc-element topic="CIM.md"/>
+            <toc-element topic="NEO.md"/>
+            <toc-element topic="Kraken-Falcon.md"/>
+        </toc-element>
+        <toc-element topic="Motor-Controllers.topic">
+            <toc-element topic="TalonFX.md"/>
+        </toc-element>
+        <toc-element topic="Encoders.topic">
+            <toc-element topic="Types-of-Encoders.md"/>
+            <toc-element topic="TalonFX-Yes-it-is-both.md"/>
+        </toc-element>
         <toc-element topic="RoboRio.md"/>
         <toc-element topic="Batteries.md"/>
         <toc-element topic="Beam-Breaker-Infared-Sensors.md"/>
