@@ -22,7 +22,7 @@ are a plethora of online resources to learn the basics of Java, and simple
 projects to understand the language to better prepare for FRC software.
 
 ## Resources:
-### 1. www.w3schools.com
+### 1. [w3schools](https://www.w3schools.com/java/default.asp)
 
 w3schools is a great resource for learning Java, as it provides a simple
 and easy-to-understand guide for beginners. It covers all the basics of Java,
@@ -30,7 +30,7 @@ from variables and data types to loops and arrays and includes advanced librarie
 of Java. The website also offers interactive examples and exercises to help you
 practice your skills.
 
-### 2. www.codecademy.com
+### 2. [codecademy](https://www.codecademy.com/learn/learn-java)
 
 Codeacademy is another available resource for learning Java. It offers a
 more detailed however limited guide for beginners. This course is also more
