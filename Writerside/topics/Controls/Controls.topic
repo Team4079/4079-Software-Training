@@ -5,5 +5,15 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="Controls" id="Controls">
 
-    <p>Start typing here...</p>
+    <p>Controlling what motors do is crucial in FRC software. </p>
+
+    <p>We currently use 3 different types of controls.</p>
+    <note>Open loop and closed loop are the two types we use. However, open loop is simpler and only needs one article. All the types of closed loops will have their own articles.</note>
+
+    <list>
+        <li>Open Loop</li>
+        <li>PID</li>
+        <li>Motion Magic/Trapezoidal Control</li>
+    </list>
+
 </topic>

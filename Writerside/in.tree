@@ -23,7 +23,14 @@
         <toc-element topic="Advantage-Scope.md"/>
         <toc-element topic="Rio-Imaging-Tool.md"/>
     </toc-element>
-    <toc-element topic="Common-Hardware.topic"/>
+    <toc-element topic="Common-Hardware.topic">
+        <toc-element topic="Motors.topic"/>
+        <toc-element topic="Motor-Controllers.topic"/>
+        <toc-element topic="Encoders.topic"/>
+        <toc-element topic="RoboRio.md"/>
+        <toc-element topic="Batteries.md"/>
+        <toc-element topic="Beam-Breaker-Infared-Sensors.md"/>
+    </toc-element>
     <toc-element topic="Important-FRC-Libraries.topic">
         <toc-element topic="WPILib.md"/>
         <toc-element topic="Photonvision.md"/>

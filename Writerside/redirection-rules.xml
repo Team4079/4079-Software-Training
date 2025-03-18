@@ -26,4 +26,24 @@
         <description>Created after removal of "Why Kotlin for FRC" from Software Training Guide</description>
         <accepts>Why-Kotlin-for-FRC.html</accepts>
     </rule>
+    <rule id="1c9b4019">
+        <description>Created after removal of "TalonFX" from Software Training Guide</description>
+        <accepts>TalonFX.html</accepts>
+    </rule>
+    <rule id="16d59ac1">
+        <description>Created after removal of "TalonFX" from Software Training Guide</description>
+        <accepts>TalonFX.html</accepts>
+    </rule>
+    <rule id="2fd5b057">
+        <description>Created after removal of "Beam Breaker/Infared Sensors" from Software Training Guide</description>
+        <accepts>Beam-Breaker-Infared-Sensors.html</accepts>
+    </rule>
+    <rule id="165184d5">
+        <description>Created after removal of "Batteries" from Software Training Guide</description>
+        <accepts>Batteries.html</accepts>
+    </rule>
+    <rule id="78536f71">
+        <description>Created after removal of "RoboRio" from Software Training Guide</description>
+        <accepts>RoboRio.html</accepts>
+    </rule>
 </rules>
