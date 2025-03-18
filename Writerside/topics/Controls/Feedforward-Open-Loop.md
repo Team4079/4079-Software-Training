@@ -15,3 +15,6 @@ graph TD
 ```
 
 (Add video example of intake motors)
+
+## Further Reading
++ [Control System Basics](https://docs.wpilib.org/en/stable/docs/software/advanced-controls/introduction/control-system-basics.html)}

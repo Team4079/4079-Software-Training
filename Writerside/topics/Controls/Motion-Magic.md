@@ -9,3 +9,6 @@ The goal
 > Concepts from here can be applied to general trapezoidal profiling.
 >
 {style="note"}
+
+## Further Reading
++ [Motion Magic](https://v6.docs.ctr-electronics.com/en/latest/docs/api-reference/device-specific/talonfx/motion-magic.html)

@@ -25,9 +25,9 @@
     </toc-element>
     <toc-element topic="Common-Hardware.topic">
         <toc-element topic="Motors.topic">
-            <toc-element topic="CIM.md"/>
-            <toc-element topic="NEO.md"/>
             <toc-element topic="Kraken-Falcon.md"/>
+            <toc-element topic="NEO.md"/>
+            <toc-element topic="CIM.md"/>
         </toc-element>
         <toc-element topic="Motor-Controllers.topic">
             <toc-element topic="TalonFX.md"/>

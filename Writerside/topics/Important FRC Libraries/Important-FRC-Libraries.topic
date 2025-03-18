@@ -5,5 +5,5 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="Important FRC Libraries" id="Important-FRC-Libraries">
 
-    <p>Start typing here...</p>
+    <p>A summary of all the libraries we use. Please refer to those specific docs to get more in depth understanding of each library.</p>
 </topic>

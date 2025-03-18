@@ -1,4 +1,5 @@
 # FRC Software Jargon
+A bunch of terms that you will hear software and everyone else use often. Helpful to know.
 
 #### General Vocabulary
 + **[FRC](https://www.firstinspires.org/robotics/frc)**: FIRST Robotics Competition
