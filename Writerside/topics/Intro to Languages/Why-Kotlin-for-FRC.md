@@ -1,6 +1,6 @@
 # Why Kotlin for FRC
 
-**Author:** Om Gupta, D1 Kotlin Glazer  
+**Author:** Om Gupta
 **Class:** 2025 Software Member
 
 ## Introduction
