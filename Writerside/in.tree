@@ -13,6 +13,7 @@
     <toc-element topic="Intro-to-Java-Kotlin.topic">
         <toc-element topic="Using-Java-for-FRC.md"/>
         <toc-element topic="Why-Kotlin-for-FRC.md"/>
+        <toc-element topic="Structure-of-our-Code.md"/>
     </toc-element>
     <toc-element topic="FRC-Specific-Apps.topic">
         <toc-element topic="NI.md"/>
@@ -41,7 +42,10 @@
         <toc-element topic="Beam-Breaker-Infared-Sensors.md"/>
     </toc-element>
     <toc-element topic="Important-FRC-Libraries.topic">
-        <toc-element topic="WPILib.md"/>
+        <toc-element topic="WPILib.md">
+            <toc-element topic="Commands.md"/>
+            <toc-element topic="Subsystems.md"/>
+        </toc-element>
         <toc-element topic="Photonvision.md"/>
         <toc-element topic="Phoenix.md"/>
         <toc-element topic="Advantage-Kit.md"/>
@@ -60,15 +64,24 @@
         <toc-element topic="Programming-a-Swerve-Part-1.md"/>
     </toc-element>
     <toc-element topic="Simulation.topic"/>
-    <toc-element topic="Common-Subsystems.topic"/>
-    <toc-element topic="Further-Reading.topic">
-        <toc-element topic="ChiefDelphi.md"/>
-        <toc-element topic="Checklist-for-Competition.md"/>
+    <toc-element topic="Common-Subsystems.topic">
+        <toc-element topic="Drivetrain.md"/>
+        <toc-element topic="Elevator.md"/>
+        <toc-element topic="Pivot.md"/>
+        <toc-element topic="Shooter.md"/>
+        <toc-element topic="Intake.md"/>
+        <toc-element topic="Vision.md"/>
     </toc-element>
+    <toc-element topic="Malefix.topic"/>
     <toc-element topic="General-Workflow.topic">
         <toc-element topic="Holy-Bible-of-Git.md"/>
         <toc-element topic="VsCode-IntelliJ.md"/>
         <toc-element topic="Commitizen.md"/>
         <toc-element topic="Git-Client.md"/>
+    </toc-element>
+    <toc-element topic="Example-Projects.topic"/>
+    <toc-element topic="Further-Reading.topic">
+        <toc-element topic="ChiefDelphi.md"/>
+        <toc-element topic="Checklist-for-Competition.md"/>
     </toc-element>
 </instance-profile>

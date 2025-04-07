@@ -10,5 +10,5 @@ The goal
 >
 {style="note"}
 
-## Further Reading
-+ [Motion Magic](https://v6.docs.ctr-electronics.com/en/latest/docs/api-reference/device-specific/talonfx/motion-magic.html)
+## See Also
+> - [Motion Magic](https://v6.docs.ctr-electronics.com/en/latest/docs/api-reference/device-specific/talonfx/motion-magic.html)

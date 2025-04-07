@@ -8,5 +8,5 @@ In FRC, the main uses of balenaEtcher are for flashing the RoboRio 2.0 SD card i
 
 To do so, simply download the certain image you want to flash. Then, select that image and the correct target and flash!
 
-## Further Reading
-+ [BalenaEtcher Docs](https://etcher-docs.balena.io/)
+## See Also
+> -  [BalenaEtcher Docs](https://etcher-docs.balena.io/)

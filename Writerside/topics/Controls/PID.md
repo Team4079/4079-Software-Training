@@ -29,5 +29,5 @@ There are multiple classes in FRC that utilize PID, and we will show you a few e
 ```java
 // Need some code lol
 ```
-## Further Reading
-+ [PIDController](https://docs.wpilib.org/en/stable/docs/software/advanced-controls/pidcontroller.html)
+## See Also
+> - [PIDController](https://docs.wpilib.org/en/stable/docs/software/advanced-controls/pidcontroller.html)

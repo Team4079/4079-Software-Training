@@ -5,5 +5,5 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="Example Projects" id="Example-Projects">
 
-    <p>Start typing here...</p>
+    <p>Placeholder for now. This will contain guides for coding different mechanisms, utils, integrating multiple libraries similar to the swerve guide. Essentially, mini FRc robots. My hope is we can get simulation to work to try these out as currently this is not possible if we do not have it on hand.</p>
 </topic>

@@ -46,4 +46,12 @@
         <description>Created after removal of "RoboRio" from Software Training Guide</description>
         <accepts>RoboRio.html</accepts>
     </rule>
+    <rule id="7da543a8">
+        <description>Created after removal of "Malefix" from Software Training Guide</description>
+        <accepts>Malefix.html</accepts>
+    </rule>
+    <rule id="44b9e1a7">
+        <description>Created after removal of "Example Projects" from Software Training Guide</description>
+        <accepts>Example-Projects.html</accepts>
+    </rule>
 </rules>
