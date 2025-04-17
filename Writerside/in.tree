@@ -79,7 +79,9 @@
         <toc-element topic="Commitizen.md"/>
         <toc-element topic="Git-Client.md"/>
     </toc-element>
-    <toc-element topic="Example-Projects.topic"/>
+    <toc-element topic="Example-Projects.topic">
+        <toc-element topic="Tank-Drive-Tutorial.md"/>
+    </toc-element>
     <toc-element topic="Further-Reading.topic">
         <toc-element topic="ChiefDelphi.md"/>
         <toc-element topic="Checklist-for-Competition.md"/>
