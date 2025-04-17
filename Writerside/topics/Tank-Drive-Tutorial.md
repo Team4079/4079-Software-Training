@@ -1,43 +1,67 @@
 # Tank Drive Tutorial
 
-> The code for this guide will be available at (will hopefully be up soon) [Tank Drive Code](https://mentorprogrammedrobots.com).
+> The code for this guide is available at [Tank Drive Code](https://mentorprogrammedrobots.com).
 >
-> This guide is a useful to learn how subsystems, commands, and overall how FRC code works. We will likely never use a tank drive again, but this should give you a good introduction on our coding processes.
+> This tutorial helps you learn about subsystems, commands, and the overall structure of FRC code. While we may not use tank drive in competition, it provides an excellent introduction to our coding processes.
 
 ## Overview
 
-In this tutorial, you'll learn how to code a tank drive. This tutorial is intended for those who are starting with FRC software. It assumes you have basic knowledge of:
+In this tutorial, you'll learn how to build a tank drive system using WPILib and command-based programming. This guide is designed for beginners to FRC software development.
 
-* Java
-* FRC stuff I think
+### Prerequisites
+* Basic Java knowledge
+* WPILib installed (VSCode with WPILib extension or IntelliJ with FRC extension)
 
-By the end of this tutorial, you'll be able to:
+### Learning Outcomes
+* Implement a functional tank drive subsystem
+* Understand the command-based programming framework
+* Learn how subsystems, commands, and other project components interact
+* Build foundation knowledge for creating more complex FRC subsystems
 
-* Code a basic tank drive
-* Understand the role of subsystems, commands, and the rest of the files in a standard project
-* Be ready to code more FRC subsystems!!!
+## What is a Tank Drive?
 
-## Before you start
+A tank drive is a drive train configuration that uses powered wheels on both sides of the robot (typically 3 wheels per side). This setup allows the robot to:
+- Move forward and backward
+- Turn by running wheels at different speeds
+- Maneuver with precise control
 
-* Make sure you install a code editor and WPILib (Either WPILib VSCode or FRC extension for intelliJ)
+![tankimage.png](tankimage.png)
 
-## Creating a Project
+### Creating a New WPILib Project
 
-To get started, {(the first thing your user should do)}.
+1. **Open WPILib VSCode and access the WPILib menu**
 
-1. {(Write the step here. Use a verb to start.)}
+   Click the WPILib logo in the top right corner.
 
-    {(Explanatory text)}
+    ![wpiliblogo.png](wpiliblogo.png)
 
-    {(Optional: Code sample or screenshot that helps your users complete this step)}
+2. **Start a new project**
+   
+   Select "Create New Project" from the menu.
 
-    {(Optional: Result)}
+    ![createproject.png](createproject.png)
 
-2. {(Write the step here. Use a verb to start.)}
+3. **Configure your project**
   
-   a. {(Substep 1)}
+   a. Select: Template > Java > Command Robot
 
-   b. {(Substep 1)}
+   ![config project.png](config project.png)
+
+   b. Choose a base folder location
+
+   c. Name your project "Tank Drive"
+
+   d. Enter your team number (4079 for Quantum Leap)
+
+   ![project complete configuration.png](project complete configuration.png)
+
+## Creating the Tank Drive Subsystem
+
+> **Tip**
+>
+> The generated project includes extra code that we won't need. We'll remove unnecessary components to focus on the tank drive implementation.
+>
+{style="note"}
 
 ## Summary
 

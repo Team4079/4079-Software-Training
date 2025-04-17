@@ -20,3 +20,7 @@ A swerve module also needs an absolute encoder. We currently used CanCoders whic
 {style="note"}
 
 ![Create new topic options](MK4iPhoto8_grande.png){ width=290 }{border-effect=line}
+
+We will have guide that goes over swerve code eventually.
+
+[Set up your project](Tank-Drive-Tutorial.md#creating-a-new-wpilib-project)
