@@ -83,6 +83,7 @@
         <toc-element topic="Tank-Drive-Tutorial.md"/>
     </toc-element>
     <toc-element topic="Further-Reading.topic">
+        <toc-element topic="Our-Current-Goals.md"/>
         <toc-element topic="ChiefDelphi.md"/>
         <toc-element topic="Checklist-for-Competition.md"/>
     </toc-element>
